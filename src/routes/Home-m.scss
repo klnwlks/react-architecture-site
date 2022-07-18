@@ -1,0 +1,63 @@
+// css for mobile ver
+@media only screen and (max-width: 600px) {
+#home{ 
+    .intro {
+	height: 75vh;
+	background-position: bottom center;
+	.intro-cont {
+	    clip-path: polygon(0 0, 100% 0, 100% 23%, 0 30%);
+	    flex-direction: row;
+	}
+	
+	.intro-anim {
+	    width: 30vw;
+	    height: 10vh;
+	    top: 5%;
+	}
+
+	.intro-text {
+	    left: 40%;
+	    top: 10%;
+	    h2 {
+		font-size: 3vw;
+	    }
+	}
+    }
+
+    .about .wrapper-1 {
+	flex-direction: column-reverse;
+	.about-text{
+	    margin-top: 5%;
+	    width: 100%;
+	    h1 { font-size: 8vw; margin-bottom: 5%; }
+	    p { font-size: 4vw; }
+	}
+
+	.about-img {
+	    width: 90%;
+	    height: 50vh;
+	    img { width: 100%; height: 100%; object-position: center; }
+	}
+    }
+
+    .projects {
+	height: 50vh;
+	h1 { font-size: 6vw }
+
+	.project-slides .slide {
+	    height: 45vh;
+	}
+    }
+
+    .who { 
+	flex-direction: column;
+	.who-text {
+	    width: 100%;
+	    h1 {font-size: 6vw}
+	    p { font-size: 4.5vw; }
+	}
+
+	.who-img { width: 90%; }
+    }
+}
+}

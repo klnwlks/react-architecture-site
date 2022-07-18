@@ -1,0 +1,39 @@
+#footer {
+    font-family: 'Strawford';
+    padding: 4%;
+    background: #010101;
+    color: #fff;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    .text {
+	font-size: 2vw;  
+	display: flex;
+	align-items: center;
+	overflow: hidden;
+	img { transform: skewY(89deg) }
+	&:hover {
+	    cursor: pointer;
+	    img {
+		transform: skewY(0deg); 
+		transition: 500ms ease transform;
+	    }
+	}
+	img { transition: 500ms ease transform }
+    }
+
+    a {
+	color: white;
+	text-decoration: none;
+    }
+
+    .contact {
+	display: flex;
+	flex-direction: column;
+	a:first-child {
+	    text-decoration: underline;
+	}
+    }
+
+}

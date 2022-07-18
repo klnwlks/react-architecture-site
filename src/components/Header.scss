@@ -1,0 +1,44 @@
+#header {
+width: 97%;
+position: absolute;
+height: 3%;
+top: 0;
+z-index: 9;
+display: flex; 
+justify-content: space-between;
+align-items: center;
+padding-left: 2%;
+padding-right: 2%;
+background: transparent;
+color: black;
+font-family: 'Strawford';
+
+.email {
+    font-size: 1.3vw;
+    font-weight: normal;
+}
+
+.logo {
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    height: 150%; // what
+    a {
+	text-decoration: none;
+	color: inherit;
+    }
+
+    img {
+	max-height: 100%;
+	max-width: 100%;
+	object-fit: contain;
+    }
+}
+
+.num {
+    padding: 1%;
+    font-size: 1.3vw;
+    white-space: nowrap;
+}
+
+}
