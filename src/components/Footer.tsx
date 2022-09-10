@@ -7,7 +7,7 @@ export default function Footer() {
     return (
 	<div id="footer">
 	    <div className="text" onClick={scrollTo}>
-		<img src="src/assets/4.png" />
+		<img src="4.png" />
 		<h1> /./ Architecture</h1>
 	    </div>
 	    <div className="contact">

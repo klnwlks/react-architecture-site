@@ -3,17 +3,17 @@
 	{
 	    "location": "location, location",
 	    "desc": "lorem ipsum etc etc",
-	    "imglink": "src/assets/projs/1.jpg"
+	    "imglink": "1.jpg"
 	},
 	{
 	    "location": "location, location",
 	    "desc": "lorem ipsum etc etc",
-	    "imglink": "src/assets/projs/2.jpg"
+	    "imglink": "2.jpg"
 	},
 	{
 	    "location": "location, location",
 	    "desc": "lorem ipsum etc etc",
-	    "imglink": "src/assets/projs/3.jpg"
+	    "imglink": "3.jpg"
 	}
     ]
 }

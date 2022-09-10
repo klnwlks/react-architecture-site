@@ -50,7 +50,7 @@ export default function Home() {
 		    </div>
 
 		    <div className="about-img">
-			<img src="src/assets/2.jpg" />
+			<img src="2.jpg" />
 		    </div>
 		</div>
 
@@ -80,7 +80,7 @@ export default function Home() {
 		</div>
 
 		<div className="who-img">
-		    <img src="src/assets/3.jpg" />
+		    <img src="3.jpg" />
 		</div>
 	    </section>
 	</div>

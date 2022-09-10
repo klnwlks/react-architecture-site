@@ -10,7 +10,7 @@ export default function Header() {
 
 	    <section className="logo">
 		<Link to="/">
-		    <img src="src/assets/logo.png" />
+		    <img src="logo.png" />
 		</Link>
 	    </section>
 
